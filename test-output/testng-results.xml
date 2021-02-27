@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39550" started-at="2021-02-27T09:18:29Z" finished-at="2021-02-27T09:19:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39550" started-at="2021-02-27T09:18:29Z" finished-at="2021-02-27T09:19:08Z">
+      <class name="com.githubapi.scripts.GithubApiTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="setUpSuite" is-config="true" duration-ms="218" started-at="2021-02-27T14:48:29Z" finished-at="2021-02-27T14:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="6576" started-at="2021-02-27T14:48:30Z" finished-at="2021-02-27T14:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUserRepositories(java.util.Map)[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="searchUserRepositories" duration-ms="5688" started-at="2021-02-27T14:48:36Z" data-provider="ApplicationTestData" finished-at="2021-02-27T14:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OutputKey=total_count, Language=java, ServiceEndpointURL=search/repositories?q=cypress+language:java&sort=stars&order=desc, OrderBy=desc, RunIteration=Yes, KeyWord=cypress, SortBy=stars}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserRepositories -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="998" started-at="2021-02-27T14:48:42Z" finished-at="2021-02-27T14:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="5452" started-at="2021-02-27T14:48:43Z" finished-at="2021-02-27T14:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUserRepositories(java.util.Map)[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="searchUserRepositories" duration-ms="2300" started-at="2021-02-27T14:48:48Z" data-provider="ApplicationTestData" finished-at="2021-02-27T14:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OutputKey=total_count, Language=java, ServiceEndpointURL=search/repositories?q=cypress+language:java&sort=stars&order=asc, OrderBy=asc, RunIteration=Yes, KeyWord=cypress, SortBy=stars}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserRepositories -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="710" started-at="2021-02-27T14:48:51Z" finished-at="2021-02-27T14:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="5439" started-at="2021-02-27T14:48:51Z" finished-at="2021-02-27T14:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUserRepositories(java.util.Map)[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="searchUserRepositories" duration-ms="2406" started-at="2021-02-27T14:48:57Z" data-provider="ApplicationTestData" finished-at="2021-02-27T14:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OutputKey=total_count, Language=python, ServiceEndpointURL=search/repositories?q=pageobject+language:python&sort=updated&order=desc, OrderBy=desc, RunIteration=Yes, KeyWord=pageobject, SortBy=updated}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserRepositories -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-02-27T14:48:59Z" finished-at="2021-02-27T14:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="setUp" is-config="true" duration-ms="5411" started-at="2021-02-27T14:49:00Z" finished-at="2021-02-27T14:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUserRepositories(java.util.Map)[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="searchUserRepositories" duration-ms="2437" started-at="2021-02-27T14:49:05Z" data-provider="ApplicationTestData" finished-at="2021-02-27T14:49:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{OutputKey=total_count, Language=python, ServiceEndpointURL=search/repositories?q=lambda+language:python&sort=forks&order=desc, OrderBy=desc, RunIteration=Yes, KeyWord=lambda, SortBy=forks}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserRepositories -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.githubapi.scripts.GithubApiTest@10bdf5e5]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-02-27T14:49:08Z" finished-at="2021-02-27T14:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.githubapi.scripts.GithubApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
